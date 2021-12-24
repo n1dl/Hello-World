@@ -1,8 +1,6 @@
-"""name , age 18+ ."""
-name = input('Enter your name: ')
-age = input('How old are you? ')
+"""Lets go or so? ."""
+confim_question = input('Will you lear python "YES" or "NO" ? ')
 
-message = (f'Welcome my friend, {name}!' if int(age) >= 18 else 'I\'m sorry\
-    friend, this is for adults guys')
+message = (f'Enjoy dude good luck you!' if confim_question == "YES" else 'Your bad! (:')
 
 print(message)
